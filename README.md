@@ -2,7 +2,7 @@
 A graph-based model which analyzes the relationship between the interest rates and inflation
 Project Summary
 
-**Overview
+## Overview
 
 This project explores the relationship between inflation rates and interest rates using historical financial data. 
 The main objective is to analyze whether there is a proportional relationship between the two variables. 
