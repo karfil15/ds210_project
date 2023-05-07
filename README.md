@@ -43,3 +43,7 @@ The degree distribution shows the number of nodes with a specific number of edge
 In this case, the degree distribution shows that 623 nodes (months) have one edge connecting them to another node 
 (i.e., they have one consecutive month with a change in inflation and interest rates less than or equal to the threshold), while one node has no edges. 
 This result indicates that, in most cases, there is a connection between consecutive months, and the changes in inflation and interest rates are below the threshold.
+
+## Sources
+OECD (2023), "Prices: Consumer prices", Main Economic Indicators (database), https://doi.org/10.1787/0f2e8000-en (accessed on 28 April 2023).
+OECD (2023), "Finance", Main Economic Indicators (database), https://doi.org/10.1787/data-00043-en (accessed on 28 April 2023).
