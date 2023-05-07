@@ -9,12 +9,12 @@ The main objective is to analyze whether there is a proportional relationship be
 The data is represented in the form of a graph, where each node represents a specific time period with its associated inflation rate and interest rate. 
 Edges between nodes represent the similarity in inflation and interest rates between adjacent time periods.
 
-Data
+## Data
 
 The dataset consists of two CSV files containing monthly inflation rates and interest rates, respectively, from 1969 to 2021. 
 The data is obtained from the OECD database.
 
-Methodology
+## Methodology
 
 1.	Data from the two CSV files is merged to create a combined dataset of data points with the corresponding date, inflation rate, and interest rate.
 
@@ -24,12 +24,15 @@ Edges are created between nodes if the difference between their interest rates a
 
 3.	The graph is analyzed to calculate the average edge distance and the degree distribution of nodes.
 
-Results
+## How to use
+Put all the files in the same folder and run the main.rs file through the terminal with cargo run. The code will produce an output described below
+
+## Results
 
 The analysis of the constructed graph yields the following results:
 
-•	Average edge distance: 0.4313
-•	Degree distribution: {1: 623, 0: 1}
+* Average edge distance: 0.4313
+* Degree distribution: {1: 623, 0: 1}
 
 These results provide insights into the relationship between inflation rates and interest rates over time. 
 The average edge distance indicates the average similarity between adjacent time periods in terms of their inflation and interest rates. 
